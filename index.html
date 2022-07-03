@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox João Enrique</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>FlexBox - João Enrique</h1>
+
+    <h3>Container: </h3> <div class="mini-container"></div>
+    <h3>Item: </h3> <div class="container1" style="padding: 0!important; justify-content: space-between;"><div class="mini-item"></div><div class="mini-item"></div><div class="mini-item"></div><div class="mini-item"></div><div class="mini-item"></div><div class="mini-item"></div><div class="mini-item"></div><div class="mini-item"></div><div class="mini-item"></div></div>
+    <!-- Flex-Direction -->
+    <h1>Flex-Direction</h1>
+    <div class="container1 wrap justify-between">
+        <div class="item-container">
+            <h3>Flex-Direction: row</h3>
+            <div class="container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Flex-Direction: row-reverse</h3>
+            <div class="container">
+                <div class="row-reverse">
+                        <div class="item">1</div>
+                        <div class="item">2</div>
+                        <div class="item">3</div>
+                        <div class="item">4</div>
+                        <div class="item">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Flex-Direction: Colunm</h3>
+            <div class="container">
+                <div class="col">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Flex-Direction: Colunm-Reverse</h3>
+            <div class="container">
+                <div class="col-reverse">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Flex-Direction -->
+
+    <!-- Flex-Wrap -->
+    <h1>Flex-Wrap</h1>
+    <div class="container1 wrap justify-between">
+        <div class="item-container">
+            <h3>Flex-Wrap: nowrap</h3>
+            <div class="container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Flex-Wrap: wrap</h3>
+            <div class="wrap container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Flex-Wrap: wrap-reverse</h3>
+            <div class="wrap-reverse container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+            </div>
+        </div>
+    </div>
+    <!-- Flex-Wrap -->
+
+    <!-- Justify-Content -->
+    <h1>Justify-Content</h1>
+
+    <div class="container1 wrap justify-betwenn">
+        <div class="item-container">
+            <h3>Justify-Content: flex-start</h3>
+            <div class="wrap justify-start container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+        
+        <div class="item-container">
+            <h3>Justify-Content: center</h3>
+            <div class="wrap justify-center container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Justify-Content: flex-end</h3>
+            <div class="wrap justify-end container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Justify-Content: space-between</h3>
+            <div class="wrap justify-between container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Justify-Content: space-around</h3>
+            <div class="wrap justify-around container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Justify-Content: space-evenly</h3>
+            <div class="wrap justify-evenly container">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+            </div>
+        </div>
+    </div>
+    <!-- Justify-Content -->
+
+    <!-- Align-Content -->
+    <h1>Align-Content</h1>
+    <div class="container1 wrap justify-betwenn">
+        <div class="item-container">
+            <h3>Align-Content: flex-start</h3>
+            <div class="wrap align-content-start container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Content: flex-end</h3>
+            <div class="wrap align-content-end container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Content: center</h3>
+            <div class="wrap align-content-center container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Content: flex-stretch</h3>
+            <div class="wrap align-content-stretch container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Content: flex-between</h3>
+            <div class="wrap align-content-between container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Content: flex-around</h3>
+            <div class="wrap align-content-around container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Align-Content -->
+
+    <!-- Align-Items -->
+    <h1>Align-Items</h1>
+    <div class="container1 wrap justify-betwenn">
+        <div class="item-container">
+            <h3>Align-Items: flex-start</h3>
+            <div class="wrap align-items-start container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Items: flex-end</h3>
+            <div class="wrap align-items-end container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Items: center</h3>
+            <div class="wrap align-items-center container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Items: flex-stretch</h3>
+            <div class="wrap align-items-stretch container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="item-container">
+            <h3>Align-Items: flex-baseline</h3>
+            <div class="wrap align-items-baseline container">
+                <div class="row">
+                    <div class="item">1</div>
+                    <div class="item">2</div>
+                    <div class="item">3</div>
+                    <div class="item">4</div>
+                    <div class="item">5</div>
+                </div>
+                <div class="row">
+                    <div class="item">6</div>
+                    <div class="item">7</div>
+                    <div class="item">8</div>
+                    <div class="item">9</div>
+                    <div class="item">10</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Align-Items -->
+</body>
+</html>
